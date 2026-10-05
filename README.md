@@ -51,7 +51,7 @@ product is commercial and co-owned with one partner.
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TB
     B["Browser<br/>templates + HTMX + plain JS"]
     CDN["CDN and WAF"]
     NG["nginx<br/>origin lockdown, rate limits,<br/>immutable static, media gate proxy"]
